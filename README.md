@@ -29,3 +29,29 @@ Descarga el archivo credentials.json que contiene tus credenciales de OAuth 2.0 
 5. Crear archivo .env con este formato:
 smtp_username=tu_email
 smtp_password=contrasenia_creada_anteriormente
+
+Pasos para obtener el archivo credentials.json
+Accede a Google Cloud Console:
+
+Ve a Google Cloud Console.
+Inicia sesión con tu cuenta de Google.
+Crear un Proyecto o Seleccionar uno Existente:
+
+Si no tienes un proyecto creado, crea uno nuevo desde el menú superior izquierdo seleccionando "Crear proyecto".
+Dale un nombre a tu proyecto y haz clic en Crear.
+Habilitar la API de Gmail:
+
+Con el proyecto seleccionado, ve a Biblioteca en el menú de navegación.
+Busca Gmail API y haz clic en Habilitar para activarla en tu proyecto.
+Configurar la Pantalla de Consentimiento de OAuth:
+
+Dirígete a Credenciales en el menú lateral.
+Haz clic en Configurar la pantalla de consentimiento de OAuth y sigue los pasos para configurar la pantalla. En este paso, selecciona Externo como tipo de usuario y llena la información básica (nombre de la aplicación, correo, etc.).
+Crear las Credenciales de Cliente OAuth 2.0:
+
+Desde la página de Credenciales, haz clic en Crear credenciales y selecciona ID de cliente de OAuth.
+Configura el tipo de aplicación seleccionando Aplicación de escritorio.
+Una vez creada, Google te dará la opción de descargar el archivo credentials.json. Descárgalo y guárdalo en el mismo directorio que tu script.
+Coloca credentials.json en el Directorio del Script:
+
+Asegúrate de que el archivo credentials.json se encuentra en la misma carpeta que el script de Python.
