@@ -26,3 +26,6 @@ Configura la pantalla de consentimiento con la información básica solicitada.
 En Tipo de aplicación, selecciona Aplicación de escritorio y nómbrala (por ejemplo, "Gmail Script App").
 Descarga el archivo credentials.json que contiene tus credenciales de OAuth 2.0 y guárdalo en el mismo directorio que tu script.
 4. Instalar dependencias
+5. Crear archivo .env con este formato:
+smtp_username=tu_email
+smtp_password=contrasenia_creada_anteriormente
